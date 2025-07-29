@@ -5,11 +5,6 @@ body, h1, h2, h3, p, ul, li {
     box-sizing: border-box;
 }
 
-/* Align navigation to right */
-nav .main-container {
-  display: flex;
-  justify-content: flex-end; 
-}
 
 
 /* Navigation 5 columns */
@@ -23,7 +18,19 @@ nav ul {
   justify-content: center; 
 }
 
+/* logo container */
+.logo-container {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
 
+/* logo style */
+.logo {
+  height: auto;
+  width: 100px;
+  display: block;
+}
 
 
 /* body copy styles */
